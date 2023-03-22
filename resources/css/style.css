@@ -1,7 +1,10 @@
 html,
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     text-align: center;
 
+    color: white;
     background-color: black;
 
     margin: 0;
@@ -11,8 +14,6 @@ body {
 
 header {
     width: 100%;
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     line-height: 2rem;
 }
@@ -33,4 +34,17 @@ header a {
 
 .video-container {
     margin: 1rem 0;
+}
+
+
+
+.gallery h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+.gallery h4 {
+    font-size: 1.25;
+    font-weight: normal;
+
+    color: gray;
 }
